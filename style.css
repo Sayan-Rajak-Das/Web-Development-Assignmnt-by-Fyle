@@ -151,6 +151,10 @@ form button:hover {
     margin: 15px;
 }
 
+.hide {
+    display: none;
+}
+
 /* ........................................ */
 .container31 {
     text-align: center;

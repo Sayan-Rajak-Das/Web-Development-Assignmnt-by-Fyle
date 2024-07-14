@@ -55,3 +55,13 @@ $(document).ready(function(){
     });
 });
 
+function showContent(card) {
+    $(card).find(".card-body").first().addClass("hide");
+    $(card).find(".card-body").last().removeClass("hide");
+}
+
+function hideContent(card) {
+    $(card).find(".card-body").first().removeClass("hide");
+    $(card).find(".card-body").last().addClass("hide");
+}
+
